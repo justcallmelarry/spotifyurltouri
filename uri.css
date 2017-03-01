@@ -1,0 +1,65 @@
+* {
+  font-family: "avenir next", "avenir";
+  font-size: 16pt;
+}
+
+div#divaf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div#uriaf {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+form {
+  padding-top: 20px;
+}
+
+div#clipboardaf {
+  font-size: 14pt;
+  float: right;
+  color: grey;
+  font-style: italic;
+}
+
+input#urlaf {
+  font-size: 14pt;
+  padding-left: 20px;
+  height: 30px;
+  width: 720px;
+  outline: none;
+  border-width: 1px;
+  border-radius: 30px;
+}
+
+input#urlaf {
+  font-size: 14pt;
+  padding-left: 20px;
+  height: 30px;
+  width: 720px;
+  outline: none;
+  border-width: 2px;
+  border-radius: 30px;
+}
+
+input#knappaf {
+  vertical-align: top;
+  height: 34px;
+  text-align: center;
+  width: 50px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: #3B99FC;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
